@@ -13,6 +13,7 @@ h1, h2 {
 }
 h1 {
     font-size: 3.5rem;
+    font-weight: bold;
 }
 h2 {
     font-size: 2.5rem;
@@ -38,7 +39,7 @@ nav {
     left: 0; 
     width: 100%; 
     color: white;
-    background-image: linear-gradient(to right, #d862ac, #f7608c, #ff6c67, #ff8440, #eba112);
+    background-image: purple;
     padding: 0.5rem;
     padding-bottom: 1rem;
 }
@@ -66,7 +67,7 @@ header {
     color: white;
     padding-top: 6rem;
     padding-bottom: 1rem;
-    background-image: linear-gradient(to right, #d862ac, #f7608c, #ff6c67, #ff8440, #eba112);
+    background-image: url('../img/fandom.jpeg');
     background-size: cover;
     background-position: center;
     background-color: #0084af;
@@ -80,9 +81,9 @@ footer p {
     font-size: 1.25rem;
 }
 #menu {
-    background-color: #FFDDD2;
+    background-color:rgba(128,0,128, 0.2);
     line-height: 1.5;
-    color:#FF758F
+    color:black
 }
 #menu dt {
     font-size: 1.75rem;
@@ -105,10 +106,16 @@ footer p:last-child {
     width:550px;
 }
 #about{
-    background-color: #FFDDD2;
+    background-color: rgba(128,0,128, 0.2);
     line-height: 1.5;
-    color:#FF758F
+    color:black
 }
+#mapImage{
+    width: 600px;  
+    height: auto;  
+    text-align: center;
+}
+
 footer {
     color: white;
     background-image: linear-gradient(to right, #d862ac, #f7608c, #ff6c67, #ff8440, #eba112);
