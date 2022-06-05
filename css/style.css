@@ -98,9 +98,8 @@ footer p:last-child {
     margin: 0;
 }
 #menu img {
-    height: 300px;
-    width: 650px;
-    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
 }
 #menu .statspic {
     height:500px;
