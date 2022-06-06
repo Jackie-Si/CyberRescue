@@ -5,6 +5,9 @@ body {
     font-family: 'Nunito Sans', 'Arial', sans-serif;
     font-size: 16px;
 }
+#china{
+    color: black !important;
+}
 h1, h2 {
     font-family: 'Raleway', 'Helvetica', sans-serif;
     font-weight: 300;
@@ -27,7 +30,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
-    color:white;
+    /* color:white; */
 }
 p {
     margin-top: 0;
@@ -97,10 +100,11 @@ footer p:last-child {
 #menu dd {
     margin: 0;
 }
-#menu img {
-    max-width: 100%;
-    height: auto;
-}
+/* #menu img {
+    height: 300px;
+    width: 650px;
+    border-radius: 15px;
+} */
 #menu .statspic {
     height:500px;
     width:550px;
@@ -129,3 +133,70 @@ a:hover {
     border-bottom-style: solid;
     border-bottom-color: #f0f0f0;
 }
+.japan img{
+    max-width: 100% !important;
+    height: auto;
+}
+.weibo{
+    max-height: 200px;
+    padding-top: 5px;
+}
+.weiboRole{
+border-width: 6px;
+  border-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+  margin-top: 10px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .div1 {
+    float: left;
+    padding: 10px;
+  }
+
+  .div2 {
+    padding: 10px;
+    flex-grow: 1;
+
+  }
+
+  .govImg{
+    width: 300px !important;
+    height: 350px !important;
+  }
+
+  .box{
+      display:flex;
+
+  }
+  .chat{
+      width: 200px !important;
+  }
+
+
+  .list{
+      margin-bottom: 100px !important;
+  }
+  .bts{
+      width: 220px !important;
+      height: 60px;
+      margin-bottom: 60px;   
+  }
+
+
+  
+  
